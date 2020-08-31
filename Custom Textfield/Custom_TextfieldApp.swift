@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Custom_TextfieldApp: App {
+struct Custom_TextFieldApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }

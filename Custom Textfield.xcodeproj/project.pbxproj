@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ADD9D44F24FC8A2400FE016D /* Custom_TextfieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9D44E24FC8A2400FE016D /* Custom_TextfieldApp.swift */; };
-		ADD9D45124FC8A2400FE016D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9D45024FC8A2400FE016D /* ContentView.swift */; };
+		ADD9D44F24FC8A2400FE016D /* Custom_TextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9D44E24FC8A2400FE016D /* Custom_TextFieldApp.swift */; };
+		ADD9D45124FC8A2400FE016D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9D45024FC8A2400FE016D /* LoginView.swift */; };
 		ADD9D45324FC8A2800FE016D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD9D45224FC8A2800FE016D /* Assets.xcassets */; };
 		ADD9D45624FC8A2800FE016D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD9D45524FC8A2800FE016D /* Preview Assets.xcassets */; };
+		ADD9D45E24FCA74800FE016D /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9D45D24FCA74800FE016D /* Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADD9D44B24FC8A2400FE016D /* Custom Textfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Textfield.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADD9D44E24FC8A2400FE016D /* Custom_TextfieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_TextfieldApp.swift; sourceTree = "<group>"; };
-		ADD9D45024FC8A2400FE016D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADD9D44E24FC8A2400FE016D /* Custom_TextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_TextFieldApp.swift; sourceTree = "<group>"; };
+		ADD9D45024FC8A2400FE016D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		ADD9D45224FC8A2800FE016D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADD9D45524FC8A2800FE016D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADD9D45724FC8A2800FE016D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD9D45D24FCA74800FE016D /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		ADD9D44D24FC8A2400FE016D /* Custom Textfield */ = {
 			isa = PBXGroup;
 			children = (
-				ADD9D44E24FC8A2400FE016D /* Custom_TextfieldApp.swift */,
-				ADD9D45024FC8A2400FE016D /* ContentView.swift */,
+				ADD9D44E24FC8A2400FE016D /* Custom_TextFieldApp.swift */,
+				ADD9D45024FC8A2400FE016D /* LoginView.swift */,
+				ADD9D45D24FCA74800FE016D /* Example.swift */,
 				ADD9D45224FC8A2800FE016D /* Assets.xcassets */,
 				ADD9D45724FC8A2800FE016D /* Info.plist */,
 				ADD9D45424FC8A2800FE016D /* Preview Content */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADD9D45124FC8A2400FE016D /* ContentView.swift in Sources */,
-				ADD9D44F24FC8A2400FE016D /* Custom_TextfieldApp.swift in Sources */,
+				ADD9D45124FC8A2400FE016D /* LoginView.swift in Sources */,
+				ADD9D44F24FC8A2400FE016D /* Custom_TextFieldApp.swift in Sources */,
+				ADD9D45E24FCA74800FE016D /* Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
